@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>recursos/iconfinder_EARTH_1715795.png</file>
+        <file>recursos/iconfinder_Mars_1715796.png</file>
+        <file>recursos/iconfinder_Mercury_1715798.png</file>
+        <file>recursos/iconfinder_Neptune_1715800.png</file>
+        <file>recursos/iconfinder_sun_2995005.png</file>
+        <file>recursos/iconfinder_Venus_1715802.png</file>
+    </qresource>
+</RCC>

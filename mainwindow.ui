@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Simulación de un sistema gravitacional</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QGraphicsView" name="graphicsView"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuplanetas">
+    <property name="title">
+     <string>planetas</string>
+    </property>
+    <addaction name="actionsol"/>
+    <addaction name="actionplaneta_1"/>
+    <addaction name="actionplaneta_2"/>
+    <addaction name="actionplaneta_3"/>
+    <addaction name="actionplaneta_4"/>
+    <addaction name="actionplaneta_5"/>
+   </widget>
+   <addaction name="menuplanetas"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="actionplaneta_1">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/recursos/iconfinder_EARTH_1715795.png</normaloff>:/recursos/iconfinder_EARTH_1715795.png</iconset>
+   </property>
+   <property name="text">
+    <string>planeta 1</string>
+   </property>
+  </action>
+  <action name="actionsol">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/recursos/iconfinder_sun_2995005.png</normaloff>:/recursos/iconfinder_sun_2995005.png</iconset>
+   </property>
+   <property name="text">
+    <string>sol</string>
+   </property>
+  </action>
+  <action name="actionplaneta_2">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/recursos/iconfinder_Mars_1715796.png</normaloff>:/recursos/iconfinder_Mars_1715796.png</iconset>
+   </property>
+   <property name="text">
+    <string>planeta 2</string>
+   </property>
+  </action>
+  <action name="actionplaneta_3">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/recursos/iconfinder_Mercury_1715798.png</normaloff>:/recursos/iconfinder_Mercury_1715798.png</iconset>
+   </property>
+   <property name="text">
+    <string>planeta 3</string>
+   </property>
+  </action>
+  <action name="actionplaneta_4">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/recursos/iconfinder_Neptune_1715800.png</normaloff>:/recursos/iconfinder_Neptune_1715800.png</iconset>
+   </property>
+   <property name="text">
+    <string>planeta 4</string>
+   </property>
+  </action>
+  <action name="actionplaneta_5">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/recursos/iconfinder_Venus_1715802.png</normaloff>:/recursos/iconfinder_Venus_1715802.png</iconset>
+   </property>
+   <property name="text">
+    <string>planeta 5</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="recursos.qrc"/>
+ </resources>
+ <connections/>
+</ui>
